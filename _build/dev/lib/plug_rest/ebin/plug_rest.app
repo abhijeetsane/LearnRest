@@ -1,0 +1,11 @@
+{application,plug_rest,
+             [{applications,[kernel,stdlib,elixir,logger,inets,public_key,
+                             plug]},
+              {description,"REST behaviour and Plug router for hypermedia web applications\n"},
+              {modules,['Elixir.Mix.Tasks.PlugRest.Gen.Resource',
+                        'Elixir.PlugRest','Elixir.PlugRest.Conn',
+                        'Elixir.PlugRest.Resource','Elixir.PlugRest.Router',
+                        'Elixir.PlugRest.RuntimeError',
+                        'Elixir.PlugRest.State','Elixir.PlugRest.Utils']},
+              {registered,[]},
+              {vsn,"0.14.0"}]}.

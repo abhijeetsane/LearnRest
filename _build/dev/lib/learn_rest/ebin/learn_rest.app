@@ -1,0 +1,10 @@
+{application,learn_rest,
+             [{applications,[kernel,stdlib,elixir,logger,plug_cowboy,
+                             plug_rest]},
+              {description,"learn_rest"},
+              {modules,['Elixir.LearnRest','Elixir.LearnRest.Application',
+                        'Elixir.LearnRest.HelloResource',
+                        'Elixir.LearnRest.Random','Elixir.LearnRest.Router']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.LearnRest.Application',[]}}]}.
